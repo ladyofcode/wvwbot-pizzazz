@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>wvwbot</title>
+    <link href="./styles.css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <section id="above-fold">
+            <div id="menu">
+                <h1><img src="images/tower.png" height="20px"/>wvwbot</h1>
+                <button>Bot dashboard</button> 
+            </div>
+
+            <p id="latest"><strong>Latest: </strong>Some really cool feature is available!</p>
+            
+            <div id="form-details">
+            <h1>Input a GW2 API Key</h1>
+                <form>
+                    <input id="api-key" type="text" name="key" required placeholder="Paste API key here">
+                    <input id="login" type="submit" name="login" value="Login with Discord">
+                    <input id="delete" type="submit" name="delete" value="Delete all my data">
+                </form>
+            </div>
+            
+            
+            <div id="little-links">
+                <a href="#"><img src="images/github.png" height="20px"/>Code repo</a>
+                <a href="#"><img src="images/speechbubble.png" height="20px"/>wvw support server</a>
+            </div>
+
+            <img id="down-arrow" src="images/expand-arrow.png" width="48px"/>
+
+        </section>
+        <section id="faq">
+            <h2>FAQ</h2>
+            <h3>What is it for?</h3>
+            <p>This bot will assign you roles based on your WvW world. You will need a GW2 account API key.</p>
+            <h3>What permissions are needed?</h3>
+            <p>The API key only needs accounts permissions and must include exactly <strong>wvwbot</strong> in the name (lowercase).</p>
+            <h3>How does it work</h3>
+            <p>This bot saves your Discord ID and one API key for that account. You can replace the key by adding a new one. You can delete all data associated with a key by using the delete button above.</p>
+            <h3>I transferred to another world. What now?</h3>
+            <p>Your roles update when you order a new API key, and every 24 hours. You can press 'Sync now' to do it sooner. Your roles should update.</p>
+            <h3>How can I add the bot to my server?</h3>
+            <p>Add the Discord bot to your server.</p>
+            <h3>'Login with Discord'? Are you trying to steal my password</h3>
+            <p>Don't worry. You will see the bot requests your Discord ID and list of servers, which is what Discord will return. Your password stays with you and Discord.</p>
+        </section>
+        
+        <footer>
+            <span>Made with &#10084 by greaka and tabs. Icons by <a href="https://icons8.com/">icons8</a>.</span>
+        </footer>
+
+    </body>
+</html> 

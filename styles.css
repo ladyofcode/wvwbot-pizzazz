@@ -1,0 +1,146 @@
+html, body{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #0B0114;
+    font-family: 'Open Sans', 'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, a, p, input, button, footer, span, form{
+    color: #fff;
+}
+
+h2, h3, #latest{
+    color: #C58E11;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    padding: 20px auto;
+    min-height: 90vh;
+}
+
+#menu h1 > img{
+    vertical-align: middle;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    background: #06010C;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    color: #C58E11;
+}
+
+#above-fold{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#above-fold > div > a > img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+button{
+    background: #7E6ECE;
+}
+
+input{
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#latest{
+    padding: 20px 10px;
+}
+
+#form-details{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-details form input{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+input[type="submit"], button{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+
+#api-key{
+    min-width: 80%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#login{
+    padding: 20px 15px;
+    background: #7289DA;
+}
+
+#delete{
+    background: #883374;
+}
+
+#little-links{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#down-arrow{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 959px) {
+    section{
+        margin: 10px;
+    }
+}
