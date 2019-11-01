@@ -8,11 +8,24 @@
   <body>
     <section>
     <h1>Dashboard</h1>
-    <h2>Your server</h2>
+    
+    <form>
+      <label>Discord server</label>
+      <input list="discord-server-list" id="discord-server-choice" name="discord-server-choice" />
+      <datalist id="discord-server-list">
+          <option selected value="A community" >The Dragonfly Effect [Phi]</option>
+          <option value="A community">The Dragonfly Effect [Phi]</option>
+          <option value="A community">The Dragonfly Effect [Phi]</option>
+      </datalist>
+    </form>
 
     <form>
-      <h3>Mode</h3>
-      <h3>Server settings</h3>
+      <h2>Mode</h2>
+      <p>All Servers: The bot will allow every server on the discord. Whenever someone joins the discord or adds an api key with a server that is not already present, then the bot will create a new role with the server name.</p>
+      <p>One Server: The bot will only allow the server that you specify. When you choose to allow linked servers, then two roles will be created; the name of the server you pick and a role WvW-Linked that every user of any linked server will get.</p>
+      <p>User Based: Works like One Server but instead of choosing the server, the bot will look up your server and choose the main server based on the account you choose. The bot will save your api key even if you delete it from your account.           Caution: The bot will break on your server if you delete the api key and don't choose a new one here.</p>    
+
+      <h2>Server settings</h2>
 
       <label for="name">
         <input type="checkbox" id="toggle" class="checkbox" /> Rename users to their Gw2 account names
